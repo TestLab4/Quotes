@@ -1,0 +1,29 @@
+<md-toolbar color='primary'>
+
+  <span flex md-truncate>Core</span>
+  
+  <span class='spacer'></span>
+  
+  <button md-icon-button [mdMenuTriggerFor]="appMenu">
+    <md-icon>more_vert</md-icon>
+  </button>
+
+  <md-menu #appMenu="mdMenu">
+    <button md-menu-item (click)=switchToDashboard()>Overview</button>    
+ <!--    <button md-menu-item (click)=switchToAdvisor()>Strategy</button>     
+    <button md-menu-item> 
+      <span>
+        <md-icon>fingerprint</md-icon>Login
+      </span> -->
+    <!-- </button> -->
+
+  </md-menu>
+
+</md-toolbar>
+
+
+<md-tab-group>
+    <md-tab label='Quotes'></md-tab>
+</md-tab-group>
+
+ 

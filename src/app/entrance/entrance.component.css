@@ -1,0 +1,25 @@
+.menu-content-devider{
+  
+  height: 100px;
+
+}
+
+.start-tile{
+	background-color: white;
+  font-size: 36px;
+  color: rgba(108,108,108,1);
+}
+
+.details-tile{
+  background-color: white;
+  font-size: 24px;
+  text-align: center;
+  color: rgba(108,108,108,1);
+}
+
+.motivation-tile{
+  background-color: #7CB342;
+  text-align: center;
+  font-size: 36px;
+  color: rgba(108,108,108,1);
+}
